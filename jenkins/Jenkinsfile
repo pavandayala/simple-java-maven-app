@@ -16,6 +16,7 @@ pipeline {
                 }
             }
         }
+        // Deliver stage failed, commented.
         // stage('Deliver') {
         //     steps {
         //         sh './jenkins/scripts/deliver.sh'
