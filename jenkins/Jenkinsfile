@@ -24,7 +24,7 @@ pipeline {
         // }
         stage("Complete"){
             steps{
-                echo "Job Complete by Master!"
+                echo "Job Complete by NewPipeline!"
             }
         }
     }
